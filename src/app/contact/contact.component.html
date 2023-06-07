@@ -1,0 +1,10 @@
+<p>contact works!</p>
+
+<p [routerLink]="['/contact']" [queryParams]="{ country: 'usa' }">With USA</p>
+<p
+  [routerLink]="['/contact']"
+  [queryParams]="{ country: 'germany' }"
+  fragment="germany"
+>
+  With Germany
+</p>
