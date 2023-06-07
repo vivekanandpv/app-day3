@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { CustomerComponent } from './customer/customer.component';
 import { PlaygroundComponent } from './playground/playground.component';
+import { DemoService } from './demo.service';
 
 @NgModule({
   declarations: [
@@ -18,13 +19,10 @@ import { PlaygroundComponent } from './playground/playground.component';
     ContactComponent,
     NotFoundComponent,
     CustomerComponent,
-    PlaygroundComponent
+    PlaygroundComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

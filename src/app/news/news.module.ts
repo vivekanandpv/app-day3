@@ -6,18 +6,15 @@ import { NationalComponent } from './national/national.component';
 import { GlobalComponent } from './global/global.component';
 import { SportsComponent } from './sports/sports.component';
 import { ScienceComponent } from './science/science.component';
-
+import { DemoService } from '../demo.service';
 
 @NgModule({
   declarations: [
     NationalComponent,
     GlobalComponent,
     SportsComponent,
-    ScienceComponent
+    ScienceComponent,
   ],
-  imports: [
-    CommonModule,
-    NewsRoutingModule
-  ]
+  imports: [CommonModule, NewsRoutingModule],
 })
-export class NewsModule { }
+export class NewsModule {}
